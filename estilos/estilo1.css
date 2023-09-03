@@ -85,12 +85,12 @@ main h3, p, h4 {
 
 .social h3, span {
     font-weight: 800;
-    
+    padding-right: 5px;
 }
 
 #perfil {
     border-radius: 20px;
-}
+  }
 
 .card {
     width: fit-content;
