@@ -171,6 +171,10 @@ hr {
 }
 
 /* Projetos */
+main > h3 {
+  text-align: center;
+}
+
 .container-projetos {
   display: flex;
   justify-content: center;
