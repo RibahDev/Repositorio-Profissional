@@ -162,9 +162,6 @@ main {
     }
   }
   
-  
-  
-
 hr {
     margin: 20px;
     border: 1px solid rgba(3, 20, 255, 0.767);
@@ -189,6 +186,14 @@ main > h3 {
   background-color: yellow;
 }
 
+.imagem {
+  padding: 10px;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  background-color: #255;
+}
+
 @media (max-width: 700px){
     header {
         flex-direction: column;
@@ -204,7 +209,7 @@ main > h3 {
     }
     .sobre {
     flex-wrap: wrap;
-    }    
+    }
     .container-sobre > picture > img {
     position: relative;
     width: 300px;
